@@ -1,0 +1,56 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+h1,h2{
+    margin: 0;
+    color: #EED6D3;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 16px;
+}
+h3{
+    margin: 25px;
+}
+header{
+    background-color: #67595E;
+}
+.header-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.pumpkin{
+    width: 80px;
+}
+.header-inner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-controls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.emotion-radios{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    width: 100%;
+}
